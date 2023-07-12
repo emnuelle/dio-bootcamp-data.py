@@ -10,13 +10,15 @@
 
 Tipos Built-ins:
 - Texto: str
-- Numérico: int, float, complex
+- Numérico: int (possuem precisão limitada), float (números racionais e sua implementação), complex
 - Sequência: list, tuple, range 
 - Mapa: dict
 - Coleção: set, frozenset
-- Booleano: bool
+- Booleano: bool (true/false) {Uma subclasse de int}
 - Binário: bytes, bytearray, memoryview
-  
+
+explorando o código no: "./programas/tipos-de-dados.py"
+
 
 
 
