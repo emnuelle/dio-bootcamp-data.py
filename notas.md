@@ -17,9 +17,40 @@ Tipos Built-ins:
 - Booleano: bool (true/false) {Uma subclasse de int}
 - Binário: bytes, bytearray, memoryview
 
+*Cada classe possui a sua implementação!*
+
+Existem também outras formas de conseguir o acessar o python, um exemplo é o terminal do computador, escrevendo "pyhton" (Obviamente assim que instalado)
+
 explorando o código no: "./programas/tipos-de-dados.py"
 
+**Modo interativo** "O interpretador python pode executar em modo que possibilite o desenvolvedor a escrever código, e ver o resultado na hora."
 
+_"um exemplo é o terminal do computador, escrevendo "pyhton" (Obviamente assim que instalado)"_
+
+- _função dir e help_:
+  dir: Sem argumentos, retorna a lista de nomes no escopo local atual. Com um argumento, retorna uma lista de atributos válidos para o objeto, ex: 
+  
+    ```
+    dir()
+    dir(100)
+    ```
+
+  Como Visto em exemplo, ele pode auxiliar de várias formas como "formar" o prgrama.
+
+  help: Invoca o sistema de ajuda integrado. É possível fazer buscas em modo interativo ou informar por parâmetro qual o nome do módulo, função, classe, método ou variável. ex:
+
+    ```
+    help()
+    help(100)
+    ```
+
+**Variáveis e constantes**
+
+**_Variáveis_**: Em linguagens de programação podemos definir valores que podem sofrer alterações no decorrer da execução do programa. Esses valores recebem o nome de variáveis, pois eles nascem com um valor e não necessáriamente devem permanecer com o mesmo durante a execução do programa.
+
+
+
+explorando o código no: "./programas/var-const.py"
 
 
 
