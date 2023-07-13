@@ -46,11 +46,22 @@ _"um exemplo é o terminal do computador, escrevendo "pyhton" (Obviamente assim 
 
 **Variáveis e constantes**
 
-**_Variáveis_**: Em linguagens de programação podemos definir valores que podem sofrer alterações no decorrer da execução do programa. Esses valores recebem o nome de variáveis, pois eles nascem com um valor e não necessáriamente devem permanecer com o mesmo durante a execução do programa.
+**_Variáveis_**: Em linguagens de programação podemos definir valores que podem sofrer alterações no decorrer da execução do programa. Esses valores recebem o nome de variáveis, pois eles nascem com um valor e não necessáriamente devem permanecer com o mesmo durante a execução do programa. 
+nota: Não precisamos definir o tipo de dados da variável, o Python faz isso automaticamente para nós. (Por isso que não é possivel criar uma variavél sem atribuir um valor, para alterar esse valor basta fazer uma atribuição de um valor novo!)
 
+**_Constantes_**: Assim como as vriáveis as constantes são utilizadas para armazenar valores. Uma constante nasce com um valor e permace com ele até o final da execução do programa, ou seja, o valor é imutável.
+**O PYHTON NÃO POSSUI CONSTANTES**, nele nós utilizamos a convenção que diz ao programador que a variável é uma constante. Para fazer isso, você deve criar a variável com o nome to em letras maíusculas.
 
+**_Boas Práticas_**: 
+- Padrão de nomes "Snake case (_)" 
+- Escolher nomes sugestivos
+- Nome de constantes todo me maiúsculo
 
 explorando o código no: "./programas/var-const.py"
 
+**Conversão de Tipos**
 
+Convertir o tipo de variáveis para manipular de uma forma diferente, ex:variáveis do tipo String que armazenam números e utiliza-las para fazer alguma operação matemática.
+
+explorando o código no: "./programas/conversao-de-tipos.py"
 
