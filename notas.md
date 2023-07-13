@@ -65,3 +65,9 @@ Convertir o tipo de variáveis para manipular de uma forma diferente, ex:variáv
 
 explorando o código no: "./programas/conversao-de-tipos.py"
 
+**Funções de entrada e saída**
+
+- input() > O usuário informa um valor 
+- print() > O programa informa um valor
+
+explorando o código no: "./programas/f-in-out.py"
