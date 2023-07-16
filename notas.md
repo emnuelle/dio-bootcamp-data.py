@@ -76,6 +76,7 @@ explorando o código no: "./programas/f-in-out.py"
 
 ### **Operadores Aritméticos** 
 Executam operações matemáticas, como adição, subtração com operandos.
+
 - "+": adição      
 - "-": subtração
 - "*": multiplicação
@@ -86,4 +87,16 @@ nota "//" divide em números inteiros
 explorando o código no: "./programas/op-aritmeticos.py"
 
 ### **Operadores de Comparação** 
+São operadores utilizados para comparar dois valores
+
+- "> (Maior que)":	Verifica se um valor é maior que outro	
+- "< (Menor que)":	Verifica se um valor é menor que outro	
+- "== (Igual a)":	Verifica se um valor é igual a outro	
+- "!= (Diferente de)":	Verifica se um valor é diferente de outro 
+- ">= (Maior ou igual a)":	Verifica se um valor é maior ou igual a outro
+- "<= (Menor ou igual a)":	Verifica se um valor é menor ou igual a outro	
+
+explorando o código no: "./programas/op-comp.py"
+
+### **Operadores de Atribuição** 
 
