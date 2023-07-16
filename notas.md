@@ -74,7 +74,7 @@ explorando o código no: "./programas/f-in-out.py"
 
 ## Tipos de Operadores com Python
 
-### **Operadores Aritiméticos** 
+### **Operadores Aritméticos** 
 Executam operações matemáticas, como adição, subtração com operandos.
 - "+": adição      
 - "-": subtração
