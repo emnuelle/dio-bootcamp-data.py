@@ -85,3 +85,5 @@ nota "//" divide em números inteiros
 
 explorando o código no: "./programas/op-aritmeticos.py"
 
+### **Operadores de Comparação** 
+
