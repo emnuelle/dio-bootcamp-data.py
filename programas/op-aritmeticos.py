@@ -1,3 +1,4 @@
+# Praticando operadores aritmeticos
 # Adição
 print( 1 + 1 )
 

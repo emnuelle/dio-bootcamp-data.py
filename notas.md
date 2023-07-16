@@ -99,4 +99,15 @@ São operadores utilizados para comparar dois valores
 explorando o código no: "./programas/op-comp.py"
 
 ### **Operadores de Atribuição** 
+São operadores utilizados para definir o valor inicial ou sobrescrever o valor de uma variável
 
+- "=":	x = 1	
+- "+=":	x += 1	
+- "-=":	x -= 1	
+- "*=":	x *= 1	
+- "/=":	x /= 1	
+- "%=":	x %= 1	
+
+explorando o código no: "./programas/op-atribuição.py"
+
+### **Operadores de Lógicos** 
