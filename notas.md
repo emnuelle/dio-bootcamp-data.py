@@ -5,8 +5,8 @@
 "./programas/primeiro-pp.py"
 - Foi elaborado um programa simples em python!
 
-### **Conhecendo a Linguagem de Programação Python**
-**Tipos de dados:** "Os tipos servem para definir as cracterísticas e comportamentos de um valor (Objeto) para o interpretador, e com ele é capaz de realizar ooperações matemáticas"
+## Conhecendo a Linguagem de Programação Python
+### **Tipos de dados:** "Os tipos servem para definir as cracterísticas e comportamentos de um valor (Objeto) para o interpretador, e com ele é capaz de realizar ooperações matemáticas"
 
 Tipos Built-ins:
 - Texto: str
@@ -23,7 +23,7 @@ Existem também outras formas de conseguir o acessar o python, um exemplo é o t
 
 explorando o código no: "./programas/tipos-de-dados.py"
 
-**Modo interativo** "O interpretador python pode executar em modo que possibilite o desenvolvedor a escrever código, e ver o resultado na hora."
+### **Modo interativo** "O interpretador python pode executar em modo que possibilite o desenvolvedor a escrever código, e ver o resultado na hora."
 
 _"um exemplo é o terminal do computador, escrevendo "pyhton" (Obviamente assim que instalado)"_
 
@@ -44,7 +44,7 @@ _"um exemplo é o terminal do computador, escrevendo "pyhton" (Obviamente assim 
     help(100)
     ```
 
-**Variáveis e constantes**
+### **Variáveis e constantes**
 
 **_Variáveis_**: Em linguagens de programação podemos definir valores que podem sofrer alterações no decorrer da execução do programa. Esses valores recebem o nome de variáveis, pois eles nascem com um valor e não necessáriamente devem permanecer com o mesmo durante a execução do programa. 
 nota: Não precisamos definir o tipo de dados da variável, o Python faz isso automaticamente para nós. (Por isso que não é possivel criar uma variavél sem atribuir um valor, para alterar esse valor basta fazer uma atribuição de um valor novo!)
@@ -53,21 +53,35 @@ nota: Não precisamos definir o tipo de dados da variável, o Python faz isso au
 **O PYHTON NÃO POSSUI CONSTANTES**, nele nós utilizamos a convenção que diz ao programador que a variável é uma constante. Para fazer isso, você deve criar a variável com o nome to em letras maíusculas.
 
 **_Boas Práticas_**: 
-- Padrão de nomes "Snake case (_)" 
+- Padrão de nomes "Snake case ( _ )" 
 - Escolher nomes sugestivos
 - Nome de constantes todo me maiúsculo
 
 explorando o código no: "./programas/var-const.py"
 
-**Conversão de Tipos**
+### **Conversão de Tipos**
 
 Convertir o tipo de variáveis para manipular de uma forma diferente, ex:variáveis do tipo String que armazenam números e utiliza-las para fazer alguma operação matemática.
 
 explorando o código no: "./programas/conversao-de-tipos.py"
 
-**Funções de entrada e saída**
+### **Funções de entrada e saída**
 
 - input() > O usuário informa um valor 
 - print() > O programa informa um valor
 
 explorando o código no: "./programas/f-in-out.py"
+
+## Tipos de Operadores com Python
+
+### **Operadores Aritiméticos** 
+Executam operações matemáticas, como adição, subtração com operandos.
+- "+": adição      
+- "-": subtração
+- "*": multiplicação
+- "/": divisão
+   
+nota "//" divide em números inteiros
+
+explorando o código no: "./programas/op-aritmeticos.py"
+
