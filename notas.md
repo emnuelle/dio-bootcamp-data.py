@@ -140,3 +140,32 @@ São utilizados para verificar se um objeto está presente em uma sequência.
 
 
 explorando o código no: "./programas/op-associacao.py"
+
+
+## Estruturas condicionais e de repetição em pyhton
+
+### **Identação e blocos**
+Identar o código é uma forma de manter o código fonte mais legível e manutenível. Em python ela exerce um segundo papel, através dela o interpretador consegue determinar onde um bloco de comando inicia e onde ele termina, ex; if/elif/else.
+
+### **Estrtuturas condicionais**
+A estrutura condicional permite o desvia de fluxo de controle, quando determinadas expressões lógicas são atendidas.
+
+    - "If": Utilizamos para verificar uma expressão e executar um bloco de código caso a condição definida seja verdadeira.
+    - "else": É utilizado para executar um bloco de código, caso o resultado da expressão informada na instrução if seja falso.
+    - "elif": É utilizado quando queremos realizar a verificação de outra expressão caso a primeira validação seja falsa.
+
+explorando o código no: "./programas/est-condicionais.py"
+
+### **Estrtuturas de repetição**
+São estruturas utilizadas para repetir um trecho de código um determinado número de vezes. Esse número pode ser conhecido previamente ou determinado através de uma expressão lógica.
+
+    - Comando "for" e a função "in range":
+      - "for": Utilizado para percorrer um objetivo ietrável. Faz sentido usar for quando sabemos o número exato de vezes que nosso bloco de código deve ser executado, ou quando queremos percorrer um objetivo iterável.
+      - Função "range": É uma função built-in usada para produzir uma sequência de números inteiros a partir de um ínicio (inclusivo) para um fim (exclusivo).
+        Ela recebe 3 argumentos:
+        - "stop": Obrigatório,
+        - "start": Opcional,
+        - "step": Opcional.
+    - Comando "while": É usado para repetir um bloco de código várias vezes. Faz sentido usar while quando não sabemos o número exato de vezes que nosso bloco de código deve ser executado. 
+
+explorando o código no: "./programas/est-de-repetição.py"
