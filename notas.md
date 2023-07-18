@@ -133,7 +133,7 @@ explorando o código no: "./programas/op-identidade.py"
 
 
 ### **Operadores de Associação** 
-São utilizados para verificar se um objetivo está presente em uma sequência.
+São utilizados para verificar se um objeto está presente em uma sequência.
 
     - "in": Retorna True caso o valor seja encontrado na sequência
     - "not in": Retorna True caso o valor não seja encontrado na sequência
