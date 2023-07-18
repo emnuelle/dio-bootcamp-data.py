@@ -67,8 +67,8 @@ explorando o código no: "./programas/conversao-de-tipos.py"
 
 ### **Funções de entrada e saída**
 
-- input() > O usuário informa um valor 
-- print() > O programa informa um valor
+    - input() > O usuário informa um valor 
+    - print() > O programa informa um valor
 
 explorando o código no: "./programas/f-in-out.py"
 
@@ -77,37 +77,66 @@ explorando o código no: "./programas/f-in-out.py"
 ### **Operadores Aritméticos** 
 Executam operações matemáticas, como adição, subtração com operandos.
 
-- "+": adição      
-- "-": subtração
-- "*": multiplicação
-- "/": divisão
-   
-nota "//" divide em números inteiros
+    - "+": adição      
+    - "-": subtração
+    - "*": multiplicação
+    - "/": divisão
+      
+    nota. "//" divide em números inteiros
 
 explorando o código no: "./programas/op-aritmeticos.py"
 
 ### **Operadores de Comparação** 
 São operadores utilizados para comparar dois valores
 
-- "> (Maior que)":	Verifica se um valor é maior que outro	
-- "< (Menor que)":	Verifica se um valor é menor que outro	
-- "== (Igual a)":	Verifica se um valor é igual a outro	
-- "!= (Diferente de)":	Verifica se um valor é diferente de outro 
-- ">= (Maior ou igual a)":	Verifica se um valor é maior ou igual a outro
-- "<= (Menor ou igual a)":	Verifica se um valor é menor ou igual a outro	
+    - "> (Maior que)":	Verifica se um valor é maior que outro	
+    - "< (Menor que)":	Verifica se um valor é menor que outro	
+    - "== (Igual a)":	Verifica se um valor é igual a outro	
+    - "!= (Diferente de)":	Verifica se um valor é diferente de outro 
+    - ">= (Maior ou igual a)":	Verifica se um valor é maior ou igual a outro
+    - "<= (Menor ou igual a)":	Verifica se um valor é menor ou igual a outro	
 
 explorando o código no: "./programas/op-comp.py"
 
 ### **Operadores de Atribuição** 
 São operadores utilizados para definir o valor inicial ou sobrescrever o valor de uma variável
 
-- "=":	x = 1	
-- "+=":	x += 1	
-- "-=":	x -= 1	
-- "*=":	x *= 1	
-- "/=":	x /= 1	
-- "%=":	x %= 1	
+    - "=":	x = 1	
+    - "+=":	x += 1	
+    - "-=":	x -= 1	
+    - "*=":	x *= 1	
+    - "/=":	x /= 1	
+    - "%=":	x %= 1	
 
 explorando o código no: "./programas/op-atribuição.py"
 
 ### **Operadores de Lógicos** 
+São operadores utilizados em consjunto com os operadores de comparação, para montar uma expressão lógica. Quando um operador de comparação é utilizado, o resultado retornado é um booleano, dessa forma podemos combinar operadoresde comparação com os operadores lógicos.
+
+    - "and": Conjunção -> Retorna True se ambos os operandos tiverem o valor True
+    - "or": Disjunção  -> Retorna True se um dos operandos tiver o valor True
+    - "not": Negação   -> Inverte o resultado lógico
+
+    nota. O tipo do resultado com esses operadores é bool (True ou False)
+
+explorando o código no: "./programas/op-logicos.py"
+
+
+### **Operadores de Identidade** 
+São operadores utilizados para comparar se os dois objetivos testados ocupam a mesmo posição na memória.
+
+    - "is": Retorna True se as variáveis comparadas forem o mesmo objeto
+    - "is not":	Retorna True se as variáveis comparadas não forem o mesmo objeto
+
+
+explorando o código no: "./programas/op-identidade.py"
+
+
+### **Operadores de Associação** 
+São utilizados para verificar se um objetivo está presente em uma sequência.
+
+    - "in": Retorna True caso o valor seja encontrado na sequência
+    - "not in": Retorna True caso o valor não seja encontrado na sequência
+
+
+explorando o código no: "./programas/op-associacao.py"
