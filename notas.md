@@ -139,7 +139,7 @@ São utilizados para verificar se um objeto está presente em uma sequência.
     - "not in": Retorna True caso o valor não seja encontrado na sequência
 
 
-explorando o código no: "./programas/op-associacao.py"
+explorando o código no: "./programas/op-associacao.py" 
 
 
 ## Estruturas condicionais e de repetição em pyhton
@@ -169,3 +169,36 @@ São estruturas utilizadas para repetir um trecho de código um determinado núm
     - Comando "while": É usado para repetir um bloco de código várias vezes. Faz sentido usar while quando não sabemos o número exato de vezes que nosso bloco de código deve ser executado. 
 
 explorando o código no: "./programas/est-de-repetição.py"
+
+## Manipulando strings com python
+
+### **Conhcendo métodos úteis da classe string**
+
+    - Maiúscula(".upper()"), minúscula(".lower()") e título(".title()")
+    - Eliminando espaços em branco: Esquerda e direita (".strip()"), esquerda(".lstrip()"), direita(".rstrip()")
+    - Junções(".join()") e centralização(".center()")
+
+explorando o código no: "./programas/metodos-string.py"
+
+### **Interpolção de variáveis**
+Existem 3 formas de interpolar variáveis em strings, a primeira é usando o sinal "%", a segunda é utilizando o método forma e a última é utilizando o f strings.
+
+nota. A primeira forma não é atualmente recomendada e seu uso em Python3 é raro!
+
+    - Old style ("%")
+    - Método(.format())
+    - "f"-string
+
+explorando o código no: "./programas/inter-var.py"
+
+### **Fatiamento de string**
+Fatiamento de strings é uma tecnica utilizada para retornar substrings (partes da string original), informando inicio (start), fim (stop) e passo (step): [start:stop[,step]].
+
+explorando o código no: "./programas/fatiamento-str.py"
+
+### **String múltiplas linhas**
+Strings de múltiplas linhas são definidas informando 3 aspas simples ou dupls durante a atribuição. Elas podem ocupar várias linhas do código, e todos os espaços em branco são inclupidos na string final.
+
+    - Strings triplas 
+
+explorando o código no: "./programas/str-multiplas.py"
