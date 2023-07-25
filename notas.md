@@ -202,3 +202,18 @@ Strings de múltiplas linhas são definidas informando 3 aspas simples ou dupls 
     - Strings triplas 
 
 explorando o código no: "./programas/str-multiplas.py"
+
+## Conhecendo Tuplas em Python
+
+### **Tuplas**
+São estruturas de dados muito parecidas com as listas, a princiál diferença é que tuplas são imutáveis enquanto listas são mutáveis. Podemos criar tuplas através da classe **tuple**, ou colocando valores separados por vírgula de parenteses.
+
+É um boa prática sempre colocar uma vírgula no final sempre que citar diversas strings.
+
+### **Acesso direto**
+A tupla é uma sequência, portanto podemos acessar seus dados utilizando índices. Contamos o índice de determinada sequência a partir do zero.
+
+explorando o código no: "./programas/acesso-direto-tuplas.py"
+
+### **Índice negativos**
+Sequências suportam indexação negativa. A contagem começa em -1.
